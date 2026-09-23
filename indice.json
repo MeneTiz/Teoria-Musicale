@@ -1,0 +1,380 @@
+[
+  {
+    "id": "00-percorso",
+    "title": "Dalla nota al suono: il percorso",
+    "group": 0,
+    "lab": "overview",
+    "question": "Qual è il metodo più utile per un confronto?",
+    "options": [
+      "Cambiare tutto insieme",
+      "Cambiare una variabile e prevedere il risultato",
+      "Scegliere sempre il suono più forte"
+    ],
+    "answer": 1,
+    "explanation": "Cambiare una variabile permette di collegare il gesto al risultato; una previsione rende l’ascolto attivo."
+  },
+  {
+    "id": "01-ritmo",
+    "title": "Ritmo, tempo e griglia",
+    "group": 1,
+    "lab": "rhythm",
+    "question": "In 4/4 a 120 BPM, quanto dura una battuta?",
+    "options": [
+      "500 ms",
+      "2 secondi",
+      "4 secondi"
+    ],
+    "answer": 1,
+    "explanation": "Quattro quarti da 0,5 secondi producono una battuta di 2 secondi."
+  },
+  {
+    "id": "02-note",
+    "title": "Note, altezze e frequenze",
+    "group": 1,
+    "lab": "pitch",
+    "question": "Che cosa resta uguale in tutte le ottave?",
+    "options": [
+      "La differenza in hertz",
+      "Il rapporto di frequenza 2:1",
+      "Il numero di armoniche"
+    ],
+    "answer": 1,
+    "explanation": "L’ottava raddoppia la frequenza. La differenza assoluta cambia con il registro."
+  },
+  {
+    "id": "03-lettura",
+    "title": "Leggere musica e piano roll",
+    "group": 1,
+    "lab": "notation",
+    "question": "La lunghezza di una nota MIDI determina sempre tutta la coda sonora?",
+    "options": [
+      "Sì",
+      "No, il release può proseguire dopo il gate",
+      "Solo se la velocity è alta"
+    ],
+    "answer": 1,
+    "explanation": "Il note-off avvia la fase di rilascio. La durata del suono dipende anche dall’inviluppo."
+  },
+  {
+    "id": "04-intervalli",
+    "title": "Intervalli: il vocabolario delle distanze",
+    "group": 1,
+    "lab": "interval",
+    "question": "Per distinguere quarta aumentata e quinta diminuita servono…",
+    "options": [
+      "Solo gli hertz",
+      "Nomi delle note e semitoni",
+      "Il volume"
+    ],
+    "answer": 1,
+    "explanation": "La distanza in semitoni può coincidere; il numero dipende dalle lettere impiegate."
+  },
+  {
+    "id": "05-scale",
+    "title": "Scale, tonalità e circolo delle quinte",
+    "group": 2,
+    "lab": "scale",
+    "question": "C (Do) maggiore e C (Do) minore sono…",
+    "options": [
+      "Relative",
+      "Parallele",
+      "La stessa scala"
+    ],
+    "answer": 1,
+    "explanation": "Hanno la stessa tonica ma una diversa struttura intervallare: sono tonalità parallele."
+  },
+  {
+    "id": "06-modi",
+    "title": "Modi e colore: ascoltare il centro",
+    "group": 2,
+    "lab": "modes",
+    "question": "Che cosa distingue meglio un modo nel contesto?",
+    "options": [
+      "La prima nota suonata una sola volta",
+      "Centro percepito e intervalli rispetto ad esso",
+      "Il nome del preset"
+    ],
+    "answer": 1,
+    "explanation": "Il centro e le relazioni gerarchiche rendono udibile il modo; cominciare da una nota non è sufficiente."
+  },
+  {
+    "id": "07-accordi",
+    "title": "Costruire e leggere gli accordi",
+    "group": 2,
+    "lab": "chord",
+    "question": "Cadd9 (Do maggiore con nona aggiunta) richiede la settima?",
+    "options": [
+      "Sì, sempre",
+      "No",
+      "Solo in registro grave"
+    ],
+    "answer": 1,
+    "explanation": "Add9 aggiunge la nona alla triade. La sigla 9 senza add implica invece normalmente una settima."
+  },
+  {
+    "id": "08-voci",
+    "title": "Rivolti, voicing e collegamento delle voci",
+    "group": 2,
+    "lab": "voicing",
+    "question": "Che cosa determina il rivolto?",
+    "options": [
+      "La nota più acuta",
+      "La nota dell’accordo al basso",
+      "Il numero di strumenti"
+    ],
+    "answer": 1,
+    "explanation": "Il rivolto dipende dal basso. La spaziatura delle altre voci riguarda il voicing."
+  },
+  {
+    "id": "09-progressioni",
+    "title": "Progressioni, funzioni e tensione",
+    "group": 2,
+    "lab": "progression",
+    "question": "Il ritmo armonico misura…",
+    "options": [
+      "La velocità dei cambi di accordo",
+      "La frequenza della fondamentale",
+      "Il numero di armoniche"
+    ],
+    "answer": 0,
+    "explanation": "Il ritmo armonico descrive quanto spesso cambia l’armonia, indipendentemente dal BPM."
+  },
+  {
+    "id": "10-cromatismo",
+    "title": "Prestiti, dominanti secondarie e modulazione",
+    "group": 2,
+    "lab": "chromatic",
+    "question": "D7 (Re settima di dominante) in C (Do) maggiore può essere…",
+    "options": [
+      "V/V, senza modulazione obbligatoria",
+      "Sempre la nuova tonica",
+      "Un accordo diatonico della scala maggiore iniziale"
+    ],
+    "answer": 0,
+    "explanation": "È una dominante secondaria diretta verso G (Sol maggiore); il contesto decide se il nuovo centro si stabilisce."
+  },
+  {
+    "id": "11-melodia",
+    "title": "Melodia, motivi e note estranee",
+    "group": 2,
+    "lab": "melody",
+    "question": "Una nota della scala è sempre una nota dell’accordo corrente?",
+    "options": [
+      "Sì",
+      "No",
+      "Solo a tempo lento"
+    ],
+    "answer": 1,
+    "explanation": "La scala contiene più note della triade: una nota può essere diatonica e tuttavia estranea all’accordo corrente."
+  },
+  {
+    "id": "12-orecchio",
+    "title": "Ear training: riconoscere e prevedere",
+    "group": 2,
+    "lab": "ear",
+    "question": "Quale esercizio allena una previsione sonora?",
+    "options": [
+      "Leggere subito la risposta",
+      "Cantare l’arrivo prima di ascoltarlo",
+      "Usare sempre la stessa fondamentale"
+    ],
+    "answer": 1,
+    "explanation": "Prevedere e poi verificare costruisce una relazione interna fra intervallo e suono."
+  },
+  {
+    "id": "13-arrangiamento",
+    "title": "Arrangiamento: registro, densità e spazio",
+    "group": 3,
+    "lab": "arrangement",
+    "question": "Due strumenti con fondamentali diverse possono mascherarsi?",
+    "options": [
+      "No",
+      "Sì, le loro componenti spettrali possono sovrapporsi",
+      "Solo se sono identici"
+    ],
+    "answer": 1,
+    "explanation": "La fondamentale è solo una parte del suono: armoniche, rumore e transitori possono sovrapporsi."
+  },
+  {
+    "id": "14-forma",
+    "title": "Struttura del brano e dinamica armonica",
+    "group": 3,
+    "lab": "form",
+    "question": "Un aumento della tensione richiede più volume?",
+    "options": [
+      "Sì",
+      "No, può derivare da armonia, ritmo o attesa",
+      "Solo nel ritornello"
+    ],
+    "answer": 1,
+    "explanation": "La dinamica formale comprende più variabili: tensione e livello sonoro non coincidono."
+  },
+  {
+    "id": "15-armoniche",
+    "title": "Forme d’onda e serie armonica",
+    "group": 4,
+    "lab": "harmonics",
+    "question": "Il primo sovratono di una serie armonica è…",
+    "options": [
+      "La fondamentale",
+      "La seconda armonica",
+      "Sempre una componente disarmonica"
+    ],
+    "answer": 1,
+    "explanation": "La fondamentale è la prima armonica; il primo sovratono è la componente successiva, cioè la seconda armonica."
+  },
+  {
+    "id": "16-fase",
+    "title": "Fase, polarità, ritardo e battimenti",
+    "group": 4,
+    "lab": "phase",
+    "question": "Un ritardo di 1 ms produce lo stesso angolo di fase a ogni frequenza?",
+    "options": [
+      "Sì",
+      "No",
+      "Solo in mono"
+    ],
+    "answer": 1,
+    "explanation": "La fase dipende da frequenza × ritardo: lo stesso tempo corrisponde a porzioni diverse di ciclo."
+  },
+  {
+    "id": "17-modulazione",
+    "title": "AM, FM e modulazione del suono",
+    "group": 4,
+    "lab": "modulation",
+    "question": "Quale modulazione lenta produce normalmente tremolo?",
+    "options": [
+      "Ampiezza",
+      "Frequenza",
+      "Panorama soltanto"
+    ],
+    "answer": 0,
+    "explanation": "Il tremolo è una variazione periodica di ampiezza; il vibrato riguarda l’altezza."
+  },
+  {
+    "id": "18-inviluppi",
+    "title": "ADSR: dare forma al tempo",
+    "group": 4,
+    "lab": "adsr",
+    "question": "Quale parametro ADSR è un livello?",
+    "options": [
+      "Decay",
+      "Sustain",
+      "Release"
+    ],
+    "answer": 1,
+    "explanation": "Sustain è il livello mantenuto finché il gate resta aperto; gli altri parametri indicano tempi."
+  },
+  {
+    "id": "19-filtri",
+    "title": "Filtri, risonanza e spettro",
+    "group": 4,
+    "lab": "filter",
+    "question": "Un filtro lineare statico genera armoniche nuove da una sinusoide?",
+    "options": [
+      "Sì, sempre",
+      "No, cambia ampiezza e fase",
+      "Solo se è passa-alto"
+    ],
+    "answer": 1,
+    "explanation": "Le nuove componenti richiedono non linearità o variazione nel tempo; il modello lineare statico non le genera."
+  },
+  {
+    "id": "20-digitale",
+    "title": "Audio digitale, campionamento e aliasing",
+    "group": 4,
+    "lab": "alias",
+    "question": "Perché l’EQ dopo il campionamento non elimina selettivamente tutto l’aliasing?",
+    "options": [
+      "Perché le componenti false sono già ripiegate su frequenze valide",
+      "Perché i bit sono sempre insufficienti",
+      "Perché Nyquist dipende dal volume"
+    ],
+    "answer": 0,
+    "explanation": "Dopo il ripiegamento una frequenza alias può essere indistinguibile da una componente reale nella stessa banda."
+  },
+  {
+    "id": "21-sintesi",
+    "title": "Architetture di sintesi: scegliere un modello",
+    "group": 4,
+    "lab": "synthesis",
+    "question": "Quale scelta rende più diretto controllare singole parziali?",
+    "options": [
+      "Sintesi additiva",
+      "Un EQ sul master necessariamente",
+      "Qualsiasi preset senza modifiche"
+    ],
+    "answer": 0,
+    "explanation": "L’additiva espone direttamente le componenti da sommare; altre architetture possono ottenere risultati simili con gesti diversi."
+  },
+  {
+    "id": "22-acustica",
+    "title": "Acustica, spazio e mixaggio",
+    "group": 5,
+    "lab": "space",
+    "question": "Una copia ritardata in stereo è sempre innocua in mono?",
+    "options": [
+      "Sì",
+      "No, può produrre interferenze e filtro a pettine",
+      "Solo se il delay è sincronizzato"
+    ],
+    "answer": 1,
+    "explanation": "La somma mono combina copie correlate con ritardo; alcune frequenze possono attenuarsi e altre rinforzarsi."
+  },
+  {
+    "id": "23-percezione",
+    "title": "Psicoacustica: ascoltare con criterio",
+    "group": 5,
+    "lab": "psycho",
+    "question": "Sentire una fondamentale significa che quella frequenza è sempre presente?",
+    "options": [
+      "Sì",
+      "No, può essere ricostruita percettivamente",
+      "Solo nelle cuffie"
+    ],
+    "answer": 1,
+    "explanation": "La struttura delle armoniche può evocare una fondamentale assente nello spettro fisico."
+  },
+  {
+    "id": "24-ritmi-avanzati",
+    "title": "Ritmi euclidei, poliritmia e modulazione metrica",
+    "group": 5,
+    "lab": "euclid",
+    "question": "Se il vecchio quarto puntato diventa il nuovo quarto, da 120 BPM passi a…",
+    "options": [
+      "180 BPM",
+      "80 BPM",
+      "120 BPM"
+    ],
+    "answer": 1,
+    "explanation": "Il nuovo quarto dura 1,5 vecchi quarti: il tempo diventa 120 ÷ 1,5 = 80 BPM."
+  },
+  {
+    "id": "25-loudness",
+    "title": "Dinamica, decibel e loudness",
+    "group": 5,
+    "lab": "dynamics",
+    "question": "Con soglia −18 dB e ratio 4:1, un ingresso a −10 dB diventa staticamente…",
+    "options": [
+      "−16 dB prima del makeup",
+      "−40 dB",
+      "−2 dB"
+    ],
+    "answer": 0,
+    "explanation": "Gli 8 dB sopra soglia diventano 2: −18 + 2 = −16 dB."
+  },
+  {
+    "id": "26-progetto",
+    "title": "Progetto finale, diagnosi e glossario",
+    "group": 6,
+    "lab": "progression",
+    "question": "Quale intervento viene prima quando il pad copre il basso?",
+    "options": [
+      "Aumentare subito il master",
+      "Controllare note, registro e durata delle voci",
+      "Cambiare casualmente tutti i preset"
+    ],
+    "answer": 1,
+    "explanation": "Una modifica all’arrangiamento può eliminare il conflitto alla fonte, prima di intervenire con il processing."
+  }
+]

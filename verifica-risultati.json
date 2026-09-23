@@ -1,0 +1,376 @@
+{
+  "chapters": [
+    {
+      "id": "00-percorso",
+      "type": "overview",
+      "audio": null,
+      "svgFinite": true,
+      "heading": "Dalla nota al suono: il percorso",
+      "overflow": false
+    },
+    {
+      "id": "01-ritmo",
+      "type": "rhythm",
+      "audio": {
+        "duration": 3.77,
+        "peak": 0.2799840271472931,
+        "rms": 0.0639387780747212
+      },
+      "svgFinite": true,
+      "heading": "Ritmo, tempo e griglia",
+      "overflow": false
+    },
+    {
+      "id": "02-note",
+      "type": "pitch",
+      "audio": {
+        "duration": 1.6400000000000001,
+        "peak": 0.2199999988079071,
+        "rms": 0.13247600321796985
+      },
+      "svgFinite": true,
+      "heading": "Note, altezze e frequenze",
+      "overflow": false
+    },
+    {
+      "id": "03-lettura",
+      "type": "notation",
+      "audio": {
+        "duration": 1.4,
+        "peak": 0.2199999988079071,
+        "rms": 0.1412768516234798
+      },
+      "svgFinite": true,
+      "heading": "Leggere musica e piano roll",
+      "overflow": false
+    },
+    {
+      "id": "04-intervalli",
+      "type": "interval",
+      "audio": {
+        "duration": 1.6400000000000001,
+        "peak": 0.2199999988079071,
+        "rms": 0.1324760366969796
+      },
+      "svgFinite": true,
+      "heading": "Intervalli: il vocabolario delle distanze",
+      "overflow": false
+    },
+    {
+      "id": "05-scale",
+      "type": "scale",
+      "audio": {
+        "duration": 3.4000000000000004,
+        "peak": 0.34999650716781616,
+        "rms": 0.15324913584338168
+      },
+      "svgFinite": true,
+      "heading": "Scale, tonalità e circolo delle quinte",
+      "overflow": false
+    },
+    {
+      "id": "06-modi",
+      "type": "modes",
+      "audio": {
+        "duration": 3.4000000000000004,
+        "peak": 0.3499996066093445,
+        "rms": 0.15324680826447493
+      },
+      "svgFinite": true,
+      "heading": "Modi e colore: ascoltare il centro",
+      "overflow": false
+    },
+    {
+      "id": "07-accordi",
+      "type": "chord",
+      "audio": {
+        "duration": 1.9,
+        "peak": 0.5691104531288147,
+        "rms": 0.2170408862353743
+      },
+      "svgFinite": true,
+      "heading": "Costruire e leggere gli accordi",
+      "overflow": false
+    },
+    {
+      "id": "08-voci",
+      "type": "voicing",
+      "audio": {
+        "duration": 4.05,
+        "peak": 0.5696442127227783,
+        "rms": 0.2073221887811738
+      },
+      "svgFinite": true,
+      "heading": "Rivolti, voicing e collegamento delle voci",
+      "overflow": false
+    },
+    {
+      "id": "09-progressioni",
+      "type": "progression",
+      "audio": {
+        "duration": 4.05,
+        "peak": 0.5690309405326843,
+        "rms": 0.20708091781011384
+      },
+      "svgFinite": true,
+      "heading": "Progressioni, funzioni e tensione",
+      "overflow": false
+    },
+    {
+      "id": "10-cromatismo",
+      "type": "chromatic",
+      "audio": {
+        "duration": 3.0500000000000003,
+        "peak": 0.5691965222358704,
+        "rms": 0.20686697504052884
+      },
+      "svgFinite": true,
+      "heading": "Prestiti, dominanti secondarie e modulazione",
+      "overflow": false
+    },
+    {
+      "id": "11-melodia",
+      "type": "melody",
+      "audio": {
+        "duration": 2.2,
+        "peak": 0.47104790806770325,
+        "rms": 0.16754309682648796
+      },
+      "svgFinite": true,
+      "heading": "Melodia, motivi e note estranee",
+      "overflow": false
+    },
+    {
+      "id": "12-orecchio",
+      "type": "ear",
+      "audio": {
+        "duration": 1.6400000000000001,
+        "peak": 0.2199999988079071,
+        "rms": 0.1324760366969796
+      },
+      "svgFinite": true,
+      "heading": "Ear training: riconoscere e prevedere",
+      "overflow": false
+    },
+    {
+      "id": "13-arrangiamento",
+      "type": "arrangement",
+      "audio": {
+        "duration": 1.9,
+        "peak": 0.7110468745231628,
+        "rms": 0.24984434213301993
+      },
+      "svgFinite": true,
+      "heading": "Arrangiamento: registro, densità e spazio",
+      "overflow": false
+    },
+    {
+      "id": "14-forma",
+      "type": "form",
+      "audio": {
+        "duration": 7.974285714285714,
+        "peak": 0.5629430413246155,
+        "rms": 0.13485934737349725
+      },
+      "svgFinite": true,
+      "heading": "Struttura del brano e dinamica armonica",
+      "overflow": false
+    },
+    {
+      "id": "15-armoniche",
+      "type": "harmonics",
+      "audio": {
+        "duration": 2.7,
+        "peak": 0.3387938141822815,
+        "rms": 0.16863718235796626
+      },
+      "svgFinite": true,
+      "heading": "Forme d’onda e serie armonica",
+      "overflow": false
+    },
+    {
+      "id": "16-fase",
+      "type": "phase",
+      "audio": {
+        "duration": 4.2,
+        "peak": 0.49999988079071045,
+        "rms": 0.343073576107452
+      },
+      "svgFinite": true,
+      "heading": "Fase, polarità, ritardo e battimenti",
+      "overflow": false
+    },
+    {
+      "id": "17-modulazione",
+      "type": "modulation",
+      "audio": {
+        "duration": 3.2,
+        "peak": 0.33748963475227356,
+        "rms": 0.16268600669300837
+      },
+      "svgFinite": true,
+      "heading": "AM, FM e modulazione del suono",
+      "overflow": false
+    },
+    {
+      "id": "18-inviluppi",
+      "type": "adsr",
+      "audio": {
+        "duration": 1.7,
+        "peak": 0.399522989988327,
+        "rms": 0.13648207987516842
+      },
+      "svgFinite": true,
+      "heading": "ADSR: dare forma al tempo",
+      "overflow": false
+    },
+    {
+      "id": "19-filtri",
+      "type": "filter",
+      "audio": {
+        "duration": 2.7,
+        "peak": 0.14076052606105804,
+        "rms": 0.07507049791071231
+      },
+      "svgFinite": true,
+      "heading": "Filtri, risonanza e spettro",
+      "overflow": false
+    },
+    {
+      "id": "20-digitale",
+      "type": "alias",
+      "audio": {
+        "duration": 1.7,
+        "peak": 0.24999842047691345,
+        "rms": 0.16352427316116422
+      },
+      "svgFinite": true,
+      "heading": "Audio digitale, campionamento e aliasing",
+      "overflow": false
+    },
+    {
+      "id": "21-sintesi",
+      "type": "synthesis",
+      "audio": {
+        "duration": 2.7,
+        "peak": 0.19613464176654816,
+        "rms": 0.10403083947226135
+      },
+      "svgFinite": true,
+      "heading": "Architetture di sintesi: scegliere un modello",
+      "overflow": false
+    },
+    {
+      "id": "22-acustica",
+      "type": "space",
+      "audio": {
+        "duration": 1.472,
+        "peak": 0.30000001192092896,
+        "rms": 0.1698767314849617
+      },
+      "svgFinite": true,
+      "heading": "Acustica, spazio e mixaggio",
+      "overflow": false
+    },
+    {
+      "id": "23-percezione",
+      "type": "psycho",
+      "audio": {
+        "duration": 2.7,
+        "peak": 0.32866233587265015,
+        "rms": 0.1430370340581201
+      },
+      "svgFinite": true,
+      "heading": "Psicoacustica: ascoltare con criterio",
+      "overflow": false
+    },
+    {
+      "id": "24-ritmi-avanzati",
+      "type": "euclid",
+      "audio": {
+        "duration": 3.02,
+        "peak": 0.4304240047931671,
+        "rms": 0.07756615439408145
+      },
+      "svgFinite": true,
+      "heading": "Ritmi euclidei, poliritmia e modulazione metrica",
+      "overflow": false
+    },
+    {
+      "id": "25-loudness",
+      "type": "dynamics",
+      "audio": {
+        "duration": 2.8,
+        "peak": 0.1778278946876526,
+        "rms": 0.0741647443599343
+      },
+      "svgFinite": true,
+      "heading": "Dinamica, decibel e loudness",
+      "overflow": false
+    },
+    {
+      "id": "26-progetto",
+      "type": "progression",
+      "audio": {
+        "duration": 4.05,
+        "peak": 0.5690309405326843,
+        "rms": 0.20708091781011384
+      },
+      "svgFinite": true,
+      "heading": "Progetto finale, diagnosi e glossario",
+      "overflow": false
+    }
+  ],
+  "checks": [
+    {
+      "name": "A4=440 Hz",
+      "pass": true
+    },
+    {
+      "name": "Ottava 2:1",
+      "pass": true
+    },
+    {
+      "name": "Scala maggiore, sette gradi",
+      "pass": true
+    },
+    {
+      "name": "Minore armonica, sensibile",
+      "pass": true
+    },
+    {
+      "name": "Diminuito settima",
+      "pass": true
+    },
+    {
+      "name": "Euclidei: tutti k/n fino a 24",
+      "pass": true
+    },
+    {
+      "name": "Compressione -10 → -16",
+      "pass": true
+    },
+    {
+      "name": "Aliasing 6000 @ 8000 → 2000",
+      "pass": true
+    },
+    {
+      "name": "Cancellazione 180°",
+      "pass": true
+    },
+    {
+      "name": "ADSR note-off durante attack",
+      "pass": true
+    },
+    {
+      "name": "Spelling G maggiore: F♯ (Fa♯)",
+      "pass": true
+    },
+    {
+      "name": "Spelling F maggiore: B♭ (Si♭)",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "mobileOverflow": false
+}
